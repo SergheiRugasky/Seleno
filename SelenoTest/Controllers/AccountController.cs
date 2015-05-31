@@ -57,6 +57,7 @@ namespace SelenoTest.Controllers
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
+            //Comment login for trigger in Team City
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
